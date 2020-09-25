@@ -101,8 +101,11 @@ def main(uuid, filepath, db, eps_manual):
 
 
 if __name__ == "__main__":
-    uuid = sys.argv[1]
-    filename = sys.argv[2]
-    db = sys.argv[3]
-    eps = sys.argv[4]
-    main(uuid, filename, db, eps)
+        uuid = sys.argv[1]
+        filename = sys.argv[2]
+        db = sys.argv[3]
+        try:
+            eps = sys.argv[4]
+        except:
+            eps = 1
+        main(uuid, filename, db, eps)
