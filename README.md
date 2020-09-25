@@ -22,6 +22,6 @@ Input parameters if tool is used as a standalone command-line tool:
  
 
 run from the command line, or called by another application: 
-by using the command ”python3 main.py” with the needed input parameters e.g. "python3 main.py [filepath]"  
+by using the command ”python3 main.py” with the needed input parameters e.g. "python3 main.py [uuid] [filepath] [db_config] [optional eps parameter]"  
  
  
