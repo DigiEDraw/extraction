@@ -6,7 +6,6 @@ Requirements:
 * start redis service 
  
 Requirements in more detail: 
-* beautifulsoup4 (bs4), version: 4.8.0 (downloaded via pip3) 
 * numpy, version: 1.17.4 (downloaded via pip3) 
 * pandas, version: 0.25.3 (downloaded via pip3) 
 * sklearn, version: 0.25.3 (downloaded via pip3) 
